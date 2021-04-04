@@ -1,6 +1,6 @@
 # FokusFirst
 
-### Disponibiliza aos clientes as opções de envio dos produtos através da Transportadora JadLog, e tem como principais características:
+Disponibiliza aos clientes as opções de envio dos produtos através da Transportadora JadLog, e tem como principais características:
 
 ## Transportadoras
 * Definir ilimitadas regiões de atuação da Transportadora;

@@ -50,9 +50,9 @@ Funções herdadas do módulo principal - FKcorreios - Geração 2
 Obs: Este módulo foi desenvolvido pela empresa FokusFirts e liberado a comunidade do PrestaShop gratuitamente. A NeoGest não inclui nenhum tipo de garantia e suporte gratuitos ao módulo e não tem relação com o desenvolvimento do mesmo.
 
 <p align="center">
-<strong>DETALHES DO PRODUTO</strong> </p>
-Versão 1.0.0 </p>
-Plataforma PrestaShop </p>
-Compatibilidade v1.6.0.1 à v1.6.1.24 </p>
-Requisito FK Correios G2 </p>
+<strong>DETALHES DO PRODUTO</strong> <br>
+Versão 1.0.0 <br>
+Plataforma PrestaShop <br>
+Compatibilidade v1.6.0.1 à v1.6.1.24 <br>
+Requisito FK Correios G2 <br>
 </p>

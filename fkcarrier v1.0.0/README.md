@@ -1,6 +1,6 @@
 # FokusFirst
 
-### Disponibiliza aos clientes as opções de envio dos produtos através dos Correios do Brasil e de Transportadoras em geral, e tem como principais características:
+Disponibiliza aos clientes as opções de envio dos produtos através dos Correios do Brasil e de Transportadoras em geral, e tem como principais características:
 
 ## Correios:
 * Disponibiliza os serviços E-SEDEX/PAC/PAC-GF/SEDEX/SEDEX 10/SEDEX 12/SEDEX HOJE;

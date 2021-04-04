@@ -1,6 +1,6 @@
 # FokusFirst
 
-### Disponibiliza na Área Administrativa opções para impressão de etiquetas de endereçamento para uso junto aos Correios, e tem como principais características:
+Disponibiliza na Área Administrativa opções para impressão de etiquetas de endereçamento para uso junto aos Correios, e tem como principais características:
 
 * Layout de acordo com as normas estabelecidas pelos Correios;
 * Permite impressão de etiquetas nos formatos:

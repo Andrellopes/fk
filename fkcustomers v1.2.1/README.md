@@ -1,6 +1,6 @@
 # FokusFirst
 
-Disponibiliza campos adicionais ao cadastro de clientes, automatiza entrada de dados e valida os campos preenchidos.
+### Disponibiliza campos adicionais ao cadastro de clientes, automatiza entrada de dados e valida os campos preenchidos.
 
 É possível configurar o FKcustomers para trabalhar em dois modos de operação:
 

@@ -60,7 +60,7 @@
 
 Obs: Este módulo foi desenvolvido pela empresa FokusFirts e liberado a comunidade do PrestaShop gratuitamente. A NeoGest não inclui nenhum tipo de garantia e suporte gratuitos ao módulo e não tem relação com o desenvolvimento do mesmo.
 
-p align="center">
+<p align="center">
 <strong>DETALHES DO PRODUTO</strong> <br>
 Versão 1.0.0 <br>
 Plataforma PrestaShop <br>

@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>Documentação Técnica</title>
+    <link rel="stylesheet" type="text/css" href="../css/fk_help.css" />
+</head>
+<body>
+
+	<div class="fk_cabec_help">
+		<img alt="Logo FokusFirst" src="logo.png">
+		<div>Configurações Gerais</div>
+	</div>
+	
+	<div class="fk_corpo_help">
+        
+		<h1>Objetivo</h1>
+        <ul>
+            Definir os parâmetros globais de funcionamento do módulo.
+        </ul>
+
+		<h1>Meu CEP</h1>
+        <ul>
+            Informe o CEP de onde serão despachados os produtos.
+            Este CEP será utilizado como base do cálculo do frete até seu destino.
+        </ul>
+
+        <h1>CEP da minha cidade</h1>
+        <ul>
+            Neste campo deve ser informado os intervalos de CEP de sua cidade.
+            <br>
+            Informe o CEP inicial e o CEP final e clique no botão incluir. Os intervalos de CEP serão mostrados no campo logo abaixo em formatação especial.
+            <br>
+            Caso necessário, este campo pode ser editado manualmente, no entanto deve ser tomado cuidado com sua formatação.
+            <br><br>
+            <b>Obs</b>: Caso sua cidade seja uma metrópole cujas cidades vizinhas são tratadas como parte integrante de sua cidade, o intervalo de CEP das mesmas também devem ser cadastrados (essas informações podem ser obtidas junto aos Correios de sua cidade).
+            <br><br>
+            <a href="http://www.buscacep.correios.com.br/servicos/dnec/menuAction.do?Metodo=menuFaixaCep" target="_blank">Link dos Correios para pesquisa.</a>
+        </ul>
+
+        <h1>Correios</h1>
+        <ul>
+            Neste campo informe:
+            <ul>
+                <li>
+                    Se deseja que o valor do frete seja calculado considerando somente as tabelas offline de preços.
+                    O web service dos Correios não será utilizado, em razão disso os prazos de entrega serão baseados nos dados previamente cadastrados.
+                </li>
+
+                <li>
+                    Marque os serviços adicionais dos Correios que deseja utilizar.
+                </li>
+
+                <li>
+                    Quando marcado algum dos serviços adicionais, deve ser selecionado como os mesmos devem ser calculados:
+                    <ul>
+                        <li>
+                            Considerar embalagem: o cálculo será feito por embalagem gerada no pedido, exemplo: se no pedido existirem 3 produtos embalados individualmente os valores
+                            dos serviços adicionais serão triplicados. Esta opção deve ser considerada quando os produtos são despachados individualmente nos Correios.
+                        </li>
+                        <li>
+                            Considerar pedido: o cálculo será efetuado considerando o envio de todas as embalagens em pacote único, ou seja, os valores dos serviços adicionais serão únicos e
+                            portanto mais baratos.
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </ul>
+
+        <h1>Frete e Envio</h1>
+        <ul>
+            Neste campo informe:
+            <ul>
+                <li>
+                    Quantidade em dias que deve ser adicionado ao prazo de entrega dos serviços dos Correios e das transportadoras.
+                </li>
+
+                <li>
+                    Valor a ser adicionado ao valor do frete calculado. Observe que este valor somente será adicionado se marcada a opção nativa do Prestashop "Adicionar custos de preparação" nas respectivar transportadoras.
+                </li>
+
+                <li>
+                    Se o valor do frete deve ser calculado com base em Embalagem virtual, Embalagem padrão ou Embalagem individual.
+                    <br>
+                    De acordo com a escolha, o módulo irá processar o cálculo conforme segue:
+
+                    <ul>
+                        <li>
+                            Embalagem virtual: com base nas dimensões e pesos cadastrados para o produto, o módulo irá criar automaticamente a melhor embalagem para acondicioná-los.
+                            Esta opção permite a melhor otimização possível para acondicionamento dos produtos e consequentemente melhor preço do frete.
+                            <br>
+                            Para exemplificar o funcionamento desta opção é como se o módulo empilhasse os produtos aproveitando da melhor maneira os espaços entre eles.
+                            <br>
+                            Com a utilização desta opção, não é necessário o cadastramento de embalagens na aba 5 do módulo.    
+                        </li>
+                        <li>
+                            Embalagens padrão: com base no volume cúbico dos produtos, o módulo escolherá a melhor embalagem cadastrada para acondicioná-los.
+                            O módulo tentará acondicionar vários produtos em uma mesma embalagem para otimizar o valor do frete.
+                            <br>
+                            Para uso desta opção é obrigatório o cadastramento de embalagens na aba 5 do módulo. Note que os Correios possuem restrições quando às dimensões das embalagens.
+                            Estas restrições podem ser visualizadas na aba 6 do módulo.
+                        </li>
+                        <li>
+                            Embalagem individual: o cálculo será feito individualmente por produto como se fossem entregues em remessas diferentes. 
+                            Nesta opção, o valor do frete pode duplicar, triplicar, etc., de acordo com a quantidade de produtos do pedido.
+                        </li>
+                    </ul>
+
+                </li>
+
+                <li>
+                    Se além da transportadora definida para o Frete Grátis, as demais transportadora com seus valores de frete devem aparecer como opção para o cliente.
+                </li>
+                <li>
+                    Se o cálculo do frete no Carrinho de Compras deve ser efetuado somente com o cliente logado. Esta opção aumentará a performance da loja para os clientes não logados.
+                    <br>
+                    Os blocos de informação do cálculo do frete irão calcular o frete normalmente.
+                </li>
+            </ul>
+        </ul>
+
+		<h1>Bloco de informações</h1>
+		<ul>
+			Marque as posições onde deseja que apareça o bloco de solicitação de CEP destino e resumo do valor do frete.
+		</ul>
+
+        <h1>Bloco rastreio de encomendas</h1>
+        <ul>
+            Marque as posições onde deseja que apareça o bloco de rastrei de encomendas.
+            <br>
+            Para utilizar as posições Coluna Esquerda e Coluna Direita, as mesmas devem estar visíveis em seu tema.
+        </ul>
+
+		<h1>Botão Salvar</h1>
+		<ul>
+			Clique no botão para validar as alterações efetuadas.
+		</ul>
+
+        <h1>Botão Excluir cache</h1>
+        <ul>
+            Utilize este botão para liberar espaço no banco de dados utilizado pelo cache do módulo. Este procedimento não é obrigatório
+            mas dependendo do volume de vendas é aconselhável executá-lo periodicamente a cada 3 meses.
+            <br>
+            A limpeza do cache é efetuada automaticamente pelo módulo quando alterada as Especificações dos Correios ou Geradas as Tabelas Offline.
+        </ul>
+
+        <h1>Posicionamento do módulo no Prestashop v1.6</h1>
+        <ul>
+            No Prestashop v1.6, opção Detalhes do Produto, o Hook Product Footer (gancho onde são incluidos os módulos) foi alterado para o final da página,
+            não permitindo um posicionamento adequado do módulo, que seria entre a Imagem do Produto e Mais Informações.
+            <br>
+            Para que seja possível esse posicionamento é necessário alterar o arquivo product.tpl do tema.
+            Abaixo descrevemos como proceder para efetuar a alteração, tomando como base o tema padrão do Prestashop.
+            <ul>
+                <li>
+                    Procure o código abaixo (aproximadamente na linha 615):
+                </li>
+                <ul style="color: red;">
+                    {if isset($HOOK_PRODUCT_FOOTER) && $HOOK_PRODUCT_FOOTER}{$HOOK_PRODUCT_FOOTER}{/if}
+                </ul>
+                <li>
+                    Procure o seguinte código (aproximadamente na linha 446) e mova o fragmento de código descrito acima para a localização conforme abaixo:
+                </li>
+                <br>
+                <ul>
+                    <ul><ul><ul><ul>&lt;/div&gt; &lt;!-- end box-cart-bottom --&gt;</ul></ul></ul></ul>
+                    <ul><ul><ul>&lt;/div&gt; &lt;!-- end box-info-product --&gt;</ul></ul></ul>
+                    <ul><ul>&lt;/div&gt; &lt;!-- end pb-right-column1 --&gt;</ul></ul>
+                    <ul>&lt;/div&gt; &lt;!-- end primary_block --&gt;</ul>
+
+                    <br>
+
+                    <ul style="color: red;">
+                        {if isset($HOOK_PRODUCT_FOOTER) && $HOOK_PRODUCT_FOOTER}{$HOOK_PRODUCT_FOOTER}{/if}
+                    </ul>
+
+                    <br>
+
+                    <ul>
+                        {if !$content_only}
+                        <ul>
+                            {if $product->description}
+                        </ul>
+                    </ul>
+                </ul>
+                <li>
+                    Salve a alteração.
+                </li>
+
+            </ul>
+
+        </ul>
+		
+	</div>
+
+</body>
+</html>

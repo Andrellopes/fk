@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>Documentação Técnica</title>
+    <link rel="stylesheet" type="text/css" href="../css/fk_help.css" />
+</head>
+<body>
+
+
+	<div class="fk_cabec_help">
+		<img alt="Logo FokusFirst" src="logo.png">
+		<div>Transportadoras</div>
+	</div>
+	
+	<div class="fk_corpo_help">
+        
+        <h1>Objetivo</h1>
+        <ul>
+            Definir as transportadoras disponibilizadas aos cliente, suas respectivas regiões e tabelas de preços.
+        </ul>
+
+        <h1>Opção Adicionar Transportadora</h1>
+        <ul>
+            Clique nesta opção para adicionar uma nova transportadora.
+        </ul>
+
+        <h1>Abrindo as opções de configuração</h1>
+        <ul>
+            Após incluir a transportadora, clique na respectiva transportadora para as opções de configuração serem mostradas conforme descritas abaixo:
+        </ul>
+
+        <h1>Nome transportadora</h1>
+        <ul>
+            Informe o nome da transportadora. Esta informação será visível ao cliente.
+        </ul>
+
+        <h1>Transportadora ativa</h1>
+        <ul>
+            Marque esta opção para informar que a transportadora ficará disponível aos clientes.
+        </ul>
+
+        <h1>Grade velocidade</h1>
+        <ul>
+            Este campo informa ao Prestashop a velocidade de entrega do serviço. O valor pode variar de 0 a 9, sendo que o valor 0 indica o de menor velocidade.
+        </ul>
+
+        <h1>Logo</h1>
+        <ul>
+            Clique no botão Selecionar arquivos para selecionar o logotipo para a transportadora. Somente são permitidos arquivos com extensão jpg.
+            <br><br>
+            A imagem somente será mostrada/alterada após clique no botão Salvar.
+        </ul>
+
+        <h1>Abrindo as opções de configuração das regiões</h1>
+        <ul>
+            Clique na respectiva região para as opções de configuração serem mostradas conforme descritas abaixo:
+        </ul>
+
+        <h1>Nome região</h1>
+        <ul>
+            Informe o nome da região.
+        </ul>
+
+        <h1>Prazo entrega específico</h1>
+        <ul>
+            Preencha este campo se desejar que o prazo de entrega desta transportadora seja diferente dos definidos no item 4. Prazos de Entrega.
+            <br>
+            Este campo deve ser preenchido da forma que deve ser mostrado aos clientes, ex: Até 2 dias úteis.
+        </ul>
+
+        <h1>Estados atendidos</h1>
+        <ul>
+            Marque os Estados que serão atendidos pelo serviço. Utilize os botões Marcar todos ou Desmarcar todos para marcar ou desmarcar todos os estados respectivamente.
+        </ul>
+
+        <h1>Intervalo CEPs atendidos</h1>
+        <ul>
+            Neste campo podem ser informados os intervalos de CEP em que o serviço ficará disponível aos clientes.
+            <br><br>
+            Informe o CEP inicial e o CEP final e clique no botão incluir. Após isso os intervalos de CEP serão mostrados no campo logo abaixo em formatação especial.
+            <br><br>
+            Caso necessário, este campo pode ser editado manualmente, no entanto deve ser tomado cuidado com sua formatação.
+        </ul>
+
+        <h1>Cobrança do frete</h1>
+        <ul>
+            Marque a forma de cobrança utilizada pela transportadora, sendo que as opções de configuração depende da forma selecionada.
+        </ul>
+
+        <h1>Preço fixo</h1>
+        <ul>
+            A transportadora irá cobrar um valor fixo, não importando as características do produto.
+
+            <ul>
+                <li>
+                    Informe o valor fixo a ser cobrado no campo apropriado, logo abaixo.
+                </li>
+            </ul>
+        </ul>
+
+        <h1>Preço fixo por intervalo de peso</h1>
+        <ul>
+            A transportadora irá cobrar um valor fixo baseado em uma tabela de intervalos de peso, ex: até 10kg cobrar R$25,00, de 11kg a 20kg cobrar R$30,00, etc.
+            <br>
+            Para definir a tabela informe nos campos apropriados, logo abaixo, o peso e valor cobrado e clique no botão Incluir.
+            <br>
+            <b>Importante:</b> a inclusão dos dados deve ser em order crescente de peso, ex: até 10kg, até 20kg, etc.
+
+            <ul>
+                <li>
+                    <b>Valor kilo excedente:</b> informe o valor cobrado pelo excedente de peso, considerando o maior peso estipulado na tabela.
+                </li>
+
+                <li>
+                    <b>Percentual seguro:</b> informe o percentual adicionado ao valor do frete para o seguro dos produtos. Este percentual será calculado com base na somatória dos valores dos produtos.
+                </li>
+
+                <li>
+                    <b>Valor pedágio:</b> valor a ser adicionado ao frete referente ao pedágio.
+                </li>
+
+                <li>
+                    <b>Fator cubagem:</b> fator de multiplicação utilizado pela transportadora para cálculo do "Peso cúbico". Normalmente as transportadoras consideram o peso e a cubagem para cálculo do frete, sendo cobrado o que for maior.
+                </li>
+            </ul>
+        </ul>
+
+        <h1>Preço peso x valor kilo por intervalo de peso</h1>
+        <ul>
+            A transportadora irá cobrar um valor por kilo baseado em uma tabela de intervalos de peso, ex: até 10kg cobrar R$5,00 por kilo, de 11kg a 20kg cobrar R$9,00 por kilo, etc.
+            <br>
+            Para definir a tabela informe nos campos apropriados, logo abaixo, o peso e valor cobrado e clique no botão Incluir.
+            <br>
+            <b>Importante:</b> a inclusão dos dados deve ser em order crescente de peso, ex: até 10kg, até 20kg, etc.
+
+            <ul>
+                <li>
+                    <b>Valor kilo excedente:</b> informe o valor cobrado pelo excedente de peso, considerando o maior peso estipulado na tabela.
+                </li>
+
+                <li>
+                    <b>Percentual seguro:</b> informe o percentual adicionado ao valor do frete para o seguro dos produtos. Este percentual será calculado com base na somatória dos valores dos produtos.
+                </li>
+
+                <li>
+                    <b>Valor pedágio:</b> valor a ser adicionado ao frete referente ao pedágio.
+                </li>
+
+                <li>
+                    <b>Fator cubagem:</b> fator de multiplicação utilizado pela transportadora para cálculo do "Peso cúbico". Normalmente as transportadoras consideram o peso e a cubagem para cálculo do frete, sendo cobrado o que for maior.
+                </li>
+            </ul>
+        </ul>
+
+        <h1>Excluir região</h1>
+        <ul>
+            Marque esta opção se deseja excluir a região da transportadora. Após marcado deve ser clicada a opção Excluir Regiões Selecionadas.
+        </ul>
+
+        <h1>Botão Salvar</h1>
+        <ul>
+            Clique no botão para validar as alterações efetuadas.
+        </ul>
+
+        <h1>Botão Adicionar nova região</h1>
+        <ul>
+            Clique no botão para adicionar uma nova região à transportadora.
+        </ul>
+
+        <h1>Botão Excluir transportadora</h1>
+        <ul>
+            Clique no botão para excluir a transportadora e todas suas regiões.
+        </ul>
+
+        <h1>Botão Excluir regiões selecionadas</h1>
+        <ul>
+            Clique no botão para excluir as regiões que foram marcadas no campo Excluir região.
+        </ul>
+
+	</div>
+
+</body>
+</html>

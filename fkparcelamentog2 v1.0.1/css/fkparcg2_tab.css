@@ -1,0 +1,101 @@
+
+.fkparcg2nav {
+    font-family: "Ubuntu Condensed", Helvetica, Arial, sans-serif;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.fkparcg2nav:before, .fkparcg2nav:after {
+    content: " ";
+    display: table;
+}
+.fkparcg2nav:after {
+    clear: both;
+}
+.fkparcg2nav > li {
+    position: relative;
+    display: block;
+}
+.fkparcg2nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.fkparcg2nav > li > a:hover, .fkparcg2nav > li > a:focus {
+    text-decoration: none;
+    background-color: #EEEEEE;
+}
+.fkparcg2nav > li.disabled > a {
+    color: #999999;
+}
+.fkparcg2nav > li.disabled > a:hover, .fkparcg2nav > li.disabled > a:focus {
+    color: #999999;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: not-allowed;
+}
+.fkparcg2nav .open > a, .fkparcg2nav .open > a:hover, .fkparcg2nav .open > a:focus {
+    background-color: #EEEEEE;
+    border-color: #777;
+}
+.fkparcg2nav .fkparcg2nav-divider {
+    height: 1px;
+    margin: 8px 0;
+    overflow: hidden;
+    background-color: #E5E5E5;
+}
+.fkparcg2nav > li > a > img {
+    max-width: none;
+}
+.fkparcg2nav-tabs {
+    border-bottom: 1px solid #DDD;
+}
+.fkparcg2nav-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+}
+.fkparcg2nav-tabs > li > a {
+    font-size: 13px;
+    color: #00AFF0;
+    margin-right: 2px;
+    line-height: 1.42857;
+    border: 1px solid transparent;
+    border-radius: 5px 5px 0 0;
+}
+.fkparcg2nav-tabs > li > a:hover {
+    border-color: #EEEEEE #EEEEEE #DDD;
+}
+.fkparcg2nav-tabs > li.active > a, .fkparcg2nav-tabs > li.active > a:hover, .fkparcg2nav-tabs > li.active > a:focus {
+    font-size: 13px;
+    color: #555555;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    border-bottom-color: transparent;
+    cursor: default;
+    z-index: 9999;
+}
+.fkparcg2tab-content {
+    margin-top: 20px;
+}
+.fkparcg2tab-content > .fkparcg2tab-pane {
+    display: none;
+}
+.fkparcg2tab-content > .active {
+    display: block;
+}
+.fkparcg2tab-panel {
+    position: relative;
+    padding: 20px;
+    margin-top: -21px;
+    margin-bottom: 20px;
+    border: solid 1px #D5D5E6;
+    background-color: #FFF;
+    -webkit-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+    -webkit-box-shadow: rgba(0,0,0,0.1) 0 2px 0,#fff 0 0 0 3px inset;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 0, #FFF 0 0 0 3px inset;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}

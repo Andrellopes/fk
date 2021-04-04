@@ -1,0 +1,58 @@
+
+.fkparcg2-titulo {
+    font-size: 16px;
+    border-bottom: 1px solid #D5D5E6;
+    margin: 15px 0 8px;
+}
+
+.fkparcg2-tr {
+    font-size: 11px;
+}
+
+.fkparcg2-td {
+    padding: 0;
+}
+
+.fkparcg2-td-parcela, .fkparcg2-td-valor {
+    text-align: right;
+}
+
+.fkparcg2-td-x {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.fkparcg2-td-sep {
+    width: 40px;
+}
+
+.fkparcg2-parcelas {
+    display: block;
+}
+
+#fkparcg2_parcelamento_1, #fkparcg2_parcelamento_2, #fkparcg2_msg_1, #fkparcg2_msg_2 {
+    display: none;
+}
+
+#fkparcg2_sem_juros_1, #fkparcg2_sem_juros_2 {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+#fkparcg2_parcelas_1, #fkparcg2_parcelas_2 {
+    display: inline-block;
+    border: 1px solid #D5D5E6;
+    border-radius: 3px;
+    padding: 5px 30px;
+}
+
+#fkparcg2_texto_1, #fkparcg2_texto_2 {
+   font-weight: bold;
+    margin: 15px 0 5px;
+}
+
+#fkparcg2_juros_1, #fkparcg2_juros_2 {
+    font-size: 10px;
+}

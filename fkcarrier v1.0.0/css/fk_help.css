@@ -1,0 +1,30 @@
+.fk_cabec_help
+{
+	height: 115px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 3px;
+	background-color: #7DA0EC;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+.fk_cabec_help DIV
+{
+	font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+	font-size: 26px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: -70px;
+}
+.fk_corpo_help
+{
+	font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #666666;
+	margin: 40px 10% 0;
+}
+.fk_corpo_help H1
+{
+	font-size: 22px;
+}

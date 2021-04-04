@@ -1,0 +1,330 @@
+.fkcarrier_opcoes
+{
+	width: 220px;
+	border: 1px solid #999999;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	padding: 10px;
+	float: left;
+	background: #FFFFFF;
+}
+.fkcarrier_opcoes INPUT[type="button"], .fkcarrier_opcoes INPUT[type="submit"]
+{
+    border: 1px solid #999999;
+    width: 32px;
+    height: 32px;
+    padding: 18px;
+    border-radius: 3px;
+}
+.fkcarrier_opcoes P
+{
+    font-weight: bold;
+}
+.fkcarrier_margin_form
+{
+	margin: 3px 0 0 260px;
+}
+.fkcarrier_margin_form INPUT[type="submit"], .fkcarrier_margin_form INPUT[type="button"]
+{
+    padding: 3px 10px;
+}
+.fkcarrier_margin_form INPUT[type="text"], .fkcarrier_margin_form INPUT[type="password"]
+{
+	height: 20px;
+	border: 1px solid #CCCCCC;
+	border-radius: 3px;
+    box-shadow: none;
+}
+.fkcarrier_margin_form INPUT[type="text"]:disabled
+{
+    height: 20px;
+    background-color: #CCCCCC;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    box-shadow: none;
+}
+.fkcarrier_margin_form INPUT[type="number"]
+{
+	height: 25px;
+	width: 45px;
+	border: 1px solid #CCCCCC;
+	border-radius: 3px;
+}
+.fkcarrier_margin_form TEXTAREA
+{
+	border: 1px solid #CCCCCC;
+	border-radius: 3px;
+    box-shadow: none;
+}
+.fkcarrier_margin_form LABEL
+{
+    display: inline-block;
+    float: none;
+    width: 170px;
+    font-weight: normal;
+    text-align: left;
+    text-shadow: none;
+    margin-left: 15px;
+}
+.fkcarrier_margin_form SPAN
+{
+    font-size: 7pt;
+}
+.fkcarrier_margin_form TABLE
+{
+    width: 100%;
+}
+.fkcarrier_margin_form TH
+{
+	height: 25px;
+	color: #FFFFFF;
+	text-align: center;
+    font-weight: bold;
+	padding: 5px;
+	background-color: #7DA0EC;
+	border: 0;
+}
+.fkcarrier_margin_form TD
+{
+    border-bottom: 1px solid #E6EDFE;;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.fkcarrier_form_group
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.fkcarrier_divisao
+{
+	height: 25px;
+	border-bottom: 2px solid #7DA0EC;
+	padding: 0 0 0 120px;
+	margin: 10px 0 5px;
+}
+.fkcarrier_divisao DIV
+{
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: left;
+    padding: 5px 0 5px 10px;
+    background-color: #7DA0EC;
+    border-top-left-radius: 10px;
+}
+.fkcarrier_button
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	background-color: #7DA0EC;
+	border: 1px solid #666;
+	border-radius: 3px;
+}
+.fkcarrier_button_warning
+{
+	color: #F21D1D;
+	font-weight: bold;
+	padding: 3px 10px;
+	background-color: #FFF;
+	border: 1px solid #F21D1D;
+	border-radius: 3px;
+}
+.fkcarrier_button:hover, .fkcarrier_button_warning:hover
+{
+	color: #999999;
+	background-color: #FFFFFF;
+	cursor: pointer;
+}
+
+.fkcarrier_toggle_titulo
+{
+	height: 40px;
+    background-color: #7DA0EC;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: left;
+    line-height: 40px;
+    padding: 0 0 0 10px;
+	border: 1px solid #BDD1FC;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.fkcarrier_toggle_titulo:HOVER
+{
+    color: #000000;
+    cursor: pointer;
+}
+.fkcarrier_toggle_itens
+{
+	display: none;
+	background-color: #FFFFFF;
+	border: 1px solid #BDD1FC;
+}
+.fkcarrier_div_button
+{
+	border-top: 6px double #7DA0EC;
+	margin: 15px 0 0;
+	padding: 10px 10px 7px;
+	background-color: #FFFFFF;
+}
+.fkcarrier_div_button DIV
+{
+	float: right;
+}
+.fkcarrier_estados_atendidos
+{
+    width: 480px;
+    margin-left: 191px;
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+    border-radius: 3px;
+}
+.fkcarrier_estados_atendidos DIV
+{
+    width: 40px;
+    display: inline-block;
+}
+.fkcarrier_img
+{
+    width: 480px;
+	border: 1px solid #CCCCCC;
+	border-radius: 3px;
+	margin-left: 191px;
+	padding: 10px;
+}
+.fkcarrier_img IMG
+{
+	border: 1px solid #CCCCCC;
+	border-radius: 3px;
+	padding: 5px;
+}
+.fkcarrier_transp_demais_itens
+{
+    margin-left: 191px;
+    width: 500px;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+}
+.fkcarrier_transp_preco
+{
+    margin-left: 17px;
+}
+.fkcarrier_tabelas_off_status
+{
+	display: none;
+	float: right;
+    margin-right: 55px;
+	padding: 10px;
+	border: 1px solid #BDD1FC;
+	border-radius: 5px;
+	font-weight: bold;
+}
+#fkcarrier_submit_add
+{
+	background: #FFFFFF url(../img/button_add.png) no-repeat center / 32px;
+}
+#fkcarrier_button_ajuda
+{
+	background: #FFFFFF url(../img/button_ajuda.png) no-repeat center / 32px;
+}
+#fkcarrier_registro_1
+{
+	border: 4px double #BDD1FC;
+	border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	background-color: #FFFFFF;
+	width: 500px;
+}
+#fkcarrier_registro_2
+{
+	border: 4px double #BDD1FC;
+	border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	background-color: #FFFFFF;
+	width: 400px;
+}
+#fkcarrier_config_geral
+{
+	border: 4px double #BDD1FC;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+	width: 700px;
+}
+#fkcarrier_cep_cidade
+{
+    width: 450px;
+}
+#fkcarrier_cadastro_cep
+{
+    border: 1px solid #BDD1FC;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    width: 1050px;
+}
+#fkcarrier_cadastro_cep_capital
+{
+    text-align: left;
+    margin-left: 40px;
+}
+#fkcarrier_prazo_entrega
+{
+    border: 1px solid #BDD1FC;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    width: 580px;
+}
+#fkcarrier_embalagens
+{
+    border: 1px solid #BDD1FC;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    width: 980px;
+}
+#fkcarrier_especificacoes_correios
+{
+	width: 730px;
+}
+#fkcarrier_servicos_correios
+{
+	width: 500px;
+	background-color: #FFFFFF;
+	border: 1px solid #999999;
+	border-radius: 5px;
+	padding: 0 10px 10px;
+	margin-bottom: 10px;
+	color: #666666;
+    font-size: 7pt;
+}
+#fkcarrier_servicos_correios INPUT[type="checkbox"]
+{
+    margin-left: 15px;
+}
+#fkcarrier_correios_selecionados
+{
+	width: 750px;
+}
+#fkcarrier_transp
+{
+    width: 760px;
+}
+#fkcarrier_transp_divisao:HOVER
+{
+    color: #000000;
+    cursor: pointer;
+}
+#fkcarrier_frete_gratis
+{
+	width: 750px;
+}
+#fkcarrier_tabelas_off
+{
+	width: 750px;
+}
+#fkcarrier_tabelas_off_proc_todos
+{
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}

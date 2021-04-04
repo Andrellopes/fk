@@ -1,0 +1,187 @@
+
+.fkcarrier-form {
+    padding: 5px 10px 5px 10px;}
+
+    .fkcarrier-form input[type="text"] {
+        height: 24px;
+        padding: 3px;
+        font-size: 13px;
+        line-height: 1.42857;
+        color: #9c9b9b;
+        vertical-align: middle;
+        background-color: white;
+        border: 1px solid #d6d4d4;
+        border-radius: 0px;}
+    
+.fkcarrier-button { 
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+    background: #43b754;
+    border: 1px solid;
+    border-color: #399a49 #247f32 #1a6d27 #399a49;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;}
+    
+    .fkcarrier-button:hover {
+        background: #3aa04c;
+        border-color: #196f28 #399a49 #399a49 #258033;}    
+
+.fkcarrier-box {
+    background: #fbfbfb;
+    border: 1px solid #d6d4d4;
+    border-radius: 0;
+    padding: 0;
+    margin: 0 0 20px 0;}
+
+.fkcarrier-legenda {
+    padding-top: 5px;
+    padding-bottom: 5px;}
+       
+    .fkcarrier-legenda p {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;}
+        
+    .fkcarrier-legenda .fkcarrier-button {
+        margin-left: 20px;}
+        
+.fkcarrier-legenda-resumo {
+    padding-top: 5px;
+    padding-bottom: 5px;}
+       
+    .fkcarrier-legenda-resumo p {
+        margin-bottom: 5px;
+        font-weight: bold;
+        text-align: center;}
+        
+    .fkcarrier-legenda-resumo .fkcarrier-button {
+        margin-left: 20px;}        
+    
+.fkcarrier-transportadoras {
+    background-color: #FFFFFF;
+    font-size: 14px;}
+    
+    .fkcarrier-transportadoras p {
+        padding: 5px;
+        margin: 5px 0 5px 0;
+        background-color: #43b754;
+        text-align: center;
+        color: #FFFFFF;
+        font-weight: bold;}
+        
+    .fkcarrier-transportadoras table {
+        width: 100%;}
+        
+    .fkcarrier-transportadoras tr {
+        border-bottom: 1px solid #d6d4d4;} 
+        
+.fkcarrier-transportadoras-resumo {
+    background-color: #FFFFFF;}
+    
+    .fkcarrier-transportadoras-resumo p {
+        padding: 2px 5px;
+        margin: 5px 0 5px 0;
+        background-color: #43b754;
+        font-size: 11px;
+        text-align: center;
+        color: #FFFFFF;
+        font-weight: bold;}
+        
+    .fkcarrier-transportadoras-resumo table {
+        width: 100%;}
+        
+    .fkcarrier-transportadoras-resumo tr {
+        border-bottom: 1px solid #d6d4d4;}
+
+.fkcarrier-rastreio-coluna {
+    background-color: transparent;
+    padding: 14px 5px 0 5px;}
+
+.fkcarrier-rastreio-footer {
+    float: left;
+    background-color: transparent;
+    margin-top: 45px;
+    width: 33.33%;
+    padding: 0 15px 0 15px;}
+
+    .fkcarrier-rastreio-footer .fkcarrier-rastreio-titulo {
+        color: #FFFFFF;}
+
+    .fkcarrier-rastreio-footer .fkcarrier-rastreio-conteudo input[type="text"] {
+        background-color: transparent;
+        border: 1px solid #515151;
+        height: 40px;
+        color: #FFFFFF;}
+
+    .fkcarrier-rastreio-footer .fkcarrier-button-rastreio {
+        height: 28px;
+        width: 28px;
+        border-radius: 50%;
+        background-color: #908f8f;
+        padding: 0;}
+
+.fkcarrier-rastreio-account {
+    background-color: transparent;
+    margin-top: 20px;}
+
+.fkcarrier-rastreio-titulo {
+    background: url(../img/logo_rastreio.png) no-repeat transparent;
+    height: 40px;
+    padding: 13px 0 0 33px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #555454;}
+
+.fkcarrier-rastreio-conteudo {
+    padding-top: 10px;}
+
+    .fkcarrier-rastreio-conteudo input[type="text"] {
+        width: 80%;
+        height: 30px;
+        padding-left: 5px;}
+
+.fkcarrier-button-rastreio {
+    height: 30px;
+    border: 1px solid #666666;
+    background-color: #e4e4e4;
+    border-radius: 3px;}
+
+    .fkcarrier-button-rastreio:hover {
+        background-color: #ffffff;}
+
+.fkcarrier-clear {
+    clear: both;
+}
+.fkcarrier-fancybox {
+    display: none;}
+        
+#fkcarrier-nome {
+    width: 60%;}
+    
+#fkcarrier-valor {
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;}
+
+#fkcarrier-img-resumo {
+    }
+
+    #fkcarrier-img-resumo img {
+        width: 99%;
+    } 
+    
+#fkcarrier-nome-resumo {
+    width: 50%;
+    font-size: 11px;}
+    
+#fkcarrier-valor-resumo {
+    width: 20%;
+    font-size: 11px;
+    text-align: right;
+    padding-right: 5px;}

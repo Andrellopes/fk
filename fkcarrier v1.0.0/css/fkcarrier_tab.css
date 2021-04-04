@@ -1,0 +1,45 @@
+.fkcarrier_tabItem
+{
+	display: none;
+}
+.fkcarrier_tabItem.selected
+{
+	display: block;
+	background: #E6EDFE;
+	padding: 20px 10px 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	min-height: 300px;
+}
+#fkcarrier_menuTab
+{
+	float: left;
+	padding: 0;
+	margin: 10px 0 0;
+	text-align: left;
+}
+#fkcarrier_menuTab LI
+{
+	text-align: left;
+	float: left;
+	display: inline;
+	padding: 5px 10px 5px 5px;
+	color: #999999;
+	background: #FFFFFF;
+	font-weight: bold;
+	cursor: pointer;
+	border-left: 1px solid #E6EDFE;
+	border-top: 1px solid #E6EDFE;
+	border-right: 1px solid #E6EDFE;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+#fkcarrier_menuTab LI.menuTabButton.selected
+{
+	color: #666;
+	background: #E6EDFE;
+}
+#fkcarrier_tabList
+{
+	clear: left;
+}

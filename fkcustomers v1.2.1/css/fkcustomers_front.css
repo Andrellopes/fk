@@ -1,0 +1,59 @@
+
+/* Para compatibilidade com o modulo mercadopago */
+#noSlide{
+    display:block !important;
+    opacity:1 !important;
+}
+
+#account-creation_form #fkcustomers_page_subheading {
+    display: none;}
+
+.fkcustomers-fancybox-fechar {
+    cursor: pointer;}
+
+.fkcustomers-fancybox-msg {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;}
+
+.fkcustomers-fancybox-submsg {
+    text-align: center;
+    font-size: 12px;}
+
+.fkcustomers-fancybox-button {
+    display: inline-block;
+    width: 48%;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    margin-bottom: 0;}
+
+.fkcustomers-btn-verde {
+    color: #f2f2f2;
+    border: 1px solid #3AA04C;
+    background: #3AA04C;}
+
+.fkcustomers-btn-vermelho {
+    color: #f2f2f2;
+    border: 1px solid #a90329;
+    background: #a90329;}
+
+.fkcustomers-color-vermelho {
+    color: #D0121A;}
+
+.fkcustomers-color-azul {
+    color: #28AAE1;}
+
+.fkcustomers-color-verde {
+    color: #218e53;}
+
+.fkcustomers-float-right {
+    float: right !important;}
+
+.fkcustomers-float-left {
+    float: left !important;}
+

@@ -1,0 +1,157 @@
+
+.fkcarrier-form {
+    padding: 5px 10px 5px 10px;}
+    
+    .fkcarrier-form input[type="text"] {
+        height: 20px;
+        padding: 2px;
+        font-size: 13px;
+        line-height: 1.42857;
+        color: #9c9b9b;
+        vertical-align: middle;
+        background-color: white;
+        border: 1px solid #d6d4d4;
+        border-radius: 0px;}
+
+    .fkcarrier-form input[type="submit"] {
+        -webkit-border-radius: 3px !important;
+        -moz-border-radius: 3px !important;
+        border-radius: 3px !important;}
+    
+.fkcarrier-button { 
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+    background: #43b754;
+    border: 1px solid;
+    border-color: #399a49 #247f32 #1a6d27 #399a49;}
+    
+    .fkcarrier-button:hover {
+        cursor: pointer;
+        background: #3aa04c;
+        border-color: #196f28 #399a49 #399a49 #258033;}    
+
+.fkcarrier-box {
+    background: #fbfbfb;
+    border: 1px solid #d6d4d4;
+    border-radius: 0;
+    padding: 0;
+    margin: 0 0 20px 0;}
+
+.fkcarrier-legenda {
+    padding-top: 5px;
+    padding-bottom: 5px;}
+       
+    .fkcarrier-legenda p {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;}
+        
+    .fkcarrier-legenda .fkcarrier-button {
+        margin-left: 20px;}
+    
+.fkcarrier-transportadoras {
+    background-color: #FFFFFF;
+    font-size: 12px;}
+    
+    .fkcarrier-transportadoras p {
+        padding: 5px;
+        margin: 5px 0 5px 0;
+        background-color: #43b754;
+        text-align: center;
+        color: #FFFFFF;
+        font-weight: bold;}
+        
+    .fkcarrier-transportadoras table {
+        width: 100%;}
+        
+    .fkcarrier-transportadoras tr {
+        border-bottom: 1px solid #d6d4d4;}
+        
+    .fkcarrier-transportadoras td {
+        padding: 5px 10px;}
+
+.fkcarrier-rastreio-coluna {
+    background-color: transparent;
+    padding: 0 5px 20px 5px;}
+
+.fkcarrier-rastreio-footer {
+    float: left;
+    background-color: transparent;
+    margin-top: 10px;
+    width: 30%;
+    padding: 0 15px 0 15px;}
+
+    .fkcarrier-rastreio-footer .fkcarrier-rastreio-titulo {
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: normal;}
+
+    .fkcarrier-rastreio-footer .fkcarrier-rastreio-conteudo input[type="text"] {
+        background-color: transparent;
+        border: 1px solid #515151;
+        height: 40px;
+        color: #FFFFFF;}
+
+    .fkcarrier-rastreio-footer .fkcarrier-button-rastreio {
+        height: 28px;
+        width: 28px;
+        border-radius: 50%;
+        background-color: #908f8f;
+        padding: 0;}
+
+.fkcarrier-rastreio-account {
+    background-color: transparent;
+    margin-top: 20px;}
+
+    .fkcarrier-rastreio-account .fkcarrier-rastreio-conteudo input[type="text"] {
+        width: 25%;}
+
+.fkcarrier-rastreio-titulo {
+    background: url(../img/logo_rastreio.png) no-repeat transparent;
+    padding: 13px 0 0 33px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #555454;}
+
+.fkcarrier-rastreio-conteudo {
+    padding-top: 10px;}
+
+    .fkcarrier-rastreio-conteudo input[type="text"] {
+        width: 75%;
+        height: 30px;
+        padding-left: 5px;
+        border: 1px solid #CCCCCC;}
+
+.fkcarrier-button-rastreio {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #666666;
+    background-color: #e4e4e4;
+    border-radius: 3px;}
+
+    .fkcarrier-button-rastreio:hover {
+        background-color: #ffffff;
+        cursor: pointer;}
+
+.fkcarrier-fancybox {
+    display: none;}
+            
+    .fkcarrier-fancybox td {
+        padding: 5px 10px;}    
+
+#fkcarrier-nome {
+    width: 60%;}
+    
+#fkcarrier-valor {
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;}
+
+
+

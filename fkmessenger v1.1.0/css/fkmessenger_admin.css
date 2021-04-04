@@ -1,0 +1,217 @@
+
+.fkmessenger-row {
+    display: inline-block;
+    width: 100%;}
+    
+.fkmessenger-panel {
+    position: relative;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: solid 1px #d5d5e6;
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: rgba(0,0,0,0.1) 0 2px 0,#fff 0 0 0 3px inset;
+    box-shadow: rgba(0,0,0,0.1) 0 2px 0,#fff 0 0 0 3px inset;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;}
+    
+    .fkmessenger-panel .fkmessenger-panel {
+        margin-top: 30px;}
+        
+.fkmessenger-panel-margin {
+    position: relative;
+    min-width: 850px;
+    padding: 20px;
+    left: 10px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    border: solid 1px #d5d5e6;
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: rgba(0,0,0,0.1) 0 2px 0,#fff 0 0 0 3px inset;
+    box-shadow: rgba(0,0,0,0.1) 0 2px 0,#fff 0 0 0 3px inset;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;}
+    
+.fkmessenger-panel-heading {
+    font-family: "Ubuntu Condensed",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #555;
+    height: 32px;
+    line-height: 2.2em;
+    text-transform: uppercase;
+    border: none;
+    border-bottom: solid 1px #eee;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    padding: 0 0 0 5px;
+    margin: -20px -16px 15px -16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;}
+        
+.fkmessenger-panel-header {
+    height: 73px;
+    background-color: #fcfdfe;
+    border-color: #eee;
+    border-bottom: 1px solid #ddd;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    padding: 10px 15px;
+    margin: -11px -20px -20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;}
+    
+.fkmessenger-panel-footer {
+    height: 73px;
+    background-color: #fcfdfe;
+    border-color: #eee;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    padding: 10px 15px;
+    margin: 15px -20px -20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;}    
+    
+.fkmessenger-button {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    color: #555;
+    line-height: 1.42857;
+    vertical-align: middle;
+    white-space: nowrap;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid transparent;
+    border-color: #ccc;
+    border-radius: 3px;
+    padding: 4px 15px;
+    margin-bottom: 0;
+    -webkit-box-shadow: #e6e6e6 0 -2px 0 inset;
+    box-shadow: #e6e6e6 0 -2px 0 inset;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;}
+    
+    .fkmessenger-button:hover {
+        background-color: #F2F2F2;}
+
+.fkmessenger-form {
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;}
+    
+    .fkmessenger-form input[type="checkbox"] {
+        margin: 7px 0 0 !important;}
+        
+    .fkmessenger-form input[type="radio"] {
+        margin: 7px 0 0 !important;}
+        
+    .fkmessenger-form textarea {
+        height: 80px;}
+        
+    .fkmessenger-form .fkmessenger-label, .fkmessenger-form .fkmessenger-label-right {
+        margin-bottom: 0 !important;
+        padding-top: 4px !important;}
+        
+    .fkmessenger-form span {
+        font-size: 10px;
+        color: #666666;}
+    
+.fkmessenger-label {
+    font-size: 13px;
+    font-weight: normal !important;
+    color: #666;
+    text-align: right;
+    margin-right: 10px;
+    min-width: 120px;
+    float: left;}
+    
+.fkmessenger-label-right {
+    font-size: 13px;
+    font-weight: normal !important;
+    color: #666;
+    text-align: right;
+    margin-right: 10px;
+    float: left;}
+
+.fkmessenger-heading-color {
+    background: #fcfdfe;
+    margin-left: -20px;
+    margin-right: -20px;} 
+        
+.fkmessenger-toggle {
+    cursor: pointer;} 
+
+.fkmessenger-toggle-itens {
+   display:none}        
+    
+.fkmessenger-float-right {
+    float: right !important;}
+    
+.fkmessenger-float-left {
+    float: left !important;}     
+
+.fkmessenger-font-normal {
+    font-weight: normal;}
+    
+.fkmessenger-font-bold {
+    font-weight: bold;}
+    
+.fkmessenger-text-left {
+    text-align: left;}
+    
+.fkmessenger-text-center {
+    text-align: center;}
+    
+.fkmessenger-text-right {
+    text-align: right;}
+    
+.fkmessenger-col-lg-auto {
+    width: auto;
+    margin-left: 5px;
+    margin-right: 15px;}
+    
+.fkmessenger-col-lg-5 {
+    width: 5%;}
+    
+.fkmessenger-col-lg-7 {
+    width: 7%;}
+        
+.fkmessenger-col-lg-10 {
+    width: 10%;}    
+    
+.fkmessenger-col-lg-25 {
+    width: 25%;}
+    
+.fkmessenger-col-lg-30 {
+    width: 30%;}    
+    
+.fkmessenger-col-lg-50 {
+    width: 50%;}
+    
+.fkmessenger-col-lg-70 {
+    width: 70%;}
+    
+.fkmessenger-col-lg-80 {
+    width: 80%;}
+    
+.fkmessenger-tinymce {
+    width: 800px;}
+ 

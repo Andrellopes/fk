@@ -1,0 +1,121 @@
+
+.fkparcg2-sub-panel {
+    margin-left: -5px;
+}
+
+.fkparcg2-panel-header {
+    height: 73px;
+    background-color: #fcfdfe;
+    border-color: #eee;
+    border-bottom: 1px solid #ddd;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    padding: 10px 15px;
+    margin: -11px -20px -20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.fkparcg2-button {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    color: #555;
+    line-height: 1.42857;
+    vertical-align: middle;
+    white-space: nowrap;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid transparent;
+    border-color: #ccc;
+    border-radius: 3px;
+    padding: 4px 15px;
+    margin-bottom: 0;
+    -webkit-box-shadow: #e6e6e6 0 -2px 0 inset;
+    box-shadow: #e6e6e6 0 -2px 0 inset;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.fkparcg2-button:hover {
+    background-color: #F2F2F2;
+}
+
+.fkparcg2-float-right {
+    float: right !important;
+}
+
+.fkparcg2-float-left {
+    float: left !important;
+}
+
+.fkparcg2-margin-top_40 {
+    margin-top: 40px;
+}
+
+.fkparcg2-text-normal {
+    font-weight: normal !important;
+}
+
+.fkparcg2-col-lg-auto {
+    width: auto;
+    margin-top: 2px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.fkparcg2-text-left {
+    text-align: left !important;
+}
+
+.fkparcg2-col-lg-5 {
+    width: 5% !important;
+}
+
+.fkparcg2-col-lg-10 {
+    width: 10% !important;
+}
+
+.fkparcg2-col-lg-15 {
+    width: 15% !important;
+}
+
+.fkparcg2-col-lg-20 {
+    width: 20% !important;
+}
+
+.fkparcg2-col-lg-25 {
+    width: 25% !important;
+}
+
+.fkparcg2-col-lg-30 {
+    width: 30% !important;
+}
+
+.fkparcg2-col-lg-40 {
+    width: 40% !important;
+}
+
+.fkparcg2-col-lg-50 {
+    width: 50% !important;
+}
+
+.fkparcg2-col-lg-60 {
+    width: 60% !important;
+}
+
+.fkparcg2-col-lg-70 {
+    width: 70% !important;
+}
+
+.fkparcg2-col-lg-80 {
+    width: 80% !important;
+}
+
+.fkparcg2-col-lg-90 {
+    width: 90% !important;
+}

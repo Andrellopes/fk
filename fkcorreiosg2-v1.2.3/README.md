@@ -52,6 +52,6 @@
 <strong>DETALHES DO PRODUTO</strong> <br>
 Versão : 1.3.1 <br>
 Plataforma : PrestaShop <br>
-Compatibilidade : v1.7 <br>
+Compatibilidade : v1.6.0.1 à v1.6.1.24 <br>
 Requisito do Servidor SOAP Habilitado no PHP <br>
 </p>
